@@ -1,0 +1,17 @@
+topics:
+  - name: Cloud Computing Architecture
+  - name: Cloud Computing Services and applications
+  - name: Management and processing of large volumes of data
+
+objectives:
+  - name: Explain the core principles of Cloud Computing and Big Data.
+  - name: Compare different Cloud service models (IaaS, PaaS, SaaS) and deployment strategies.
+  - name: Apply AWS services to deploy cloud solutions.
+  - name: Analyze Big Data challenges and select appropriate storage/processing frameworks.
+  - name: Design data-driven solutions for biomedical and healthcare applications.
+
+learning_outcomes:
+  - name: Design and implement cloud-based systems for storing, managing, and processing large-scale data efficiently.
+  - name: Develop computing solutions for biomedical problems using Big Data technologies.
+  - name: Utilize AWS services to build pipelines and analytics platforms.
+  - name: Apply data processing frameworks (e.g., Spark, Hadoop) to analyze and extract insights from large datasets.

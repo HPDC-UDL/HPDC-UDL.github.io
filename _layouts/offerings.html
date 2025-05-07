@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul id="archive">
+  {% for offering in site.offerings %}
+    <li class="archiveposturl">
+      <div class="content">
+        <a href="{{ offering.url | prepend: site.baseurl }}" style="text-decoration: none; color: inherit;">
+          <div class="offeringtitle">{{ offering.title }}</div>
+          <div class="offeringdetails">
+            <span>Instructor: {{ offering.instructor }}</span>
+          </div>
+        </a>
+    </li>
+  {% endfor %}
+</ul>

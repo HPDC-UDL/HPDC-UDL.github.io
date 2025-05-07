@@ -1,0 +1,43 @@
+# Site settings
+course_name: High-performance and Distributed Computing
+course_description: "The course on High-Performance and Distributed Computing for Big Data sets the basics for understanding and using advanced computing infraestructures to solve biomedical problems that use large amounts of data. This course is about the basic tools, programming languages and algorithmic techniques that are needed to develop software solutions that are scalable in parallel and distributed environments. The techniques cover the main algorithm design and analysis ideas for three major classes of machines: multicore and manycore shared memory machines, distributed memory machines like clusters and supercomputers, and cloud environments. Techniques will be illustrated with representative problems from the biomedical field This course is coordinated by Universitat Autònoma de Barcelona, in collaboration with Universitat de Lleida. This part of the course explores the fundamental concepts, architectures, and applications of Cloud Computing and Big Data, with a focus on their implementation in real-world scenarios, particularly in the health domain. Students will gain hands-on experience with Amazon Web Services (AWS)."
+course_semester: "2on Semester"
+
+baseurl: ""
+url: "http://HPDC-UDL.github.io/"
+
+schoolname: "Escola Politècnica Superior (Universitat de Lleida)"
+schoolurl: "https://eps.udl.cat/en/"
+
+github_username: JordiMateoUdL 
+google_scholar_id: t-vbHCoAAAAJ 
+orcid_id: 0000-0002-1660-0380 
+twitter_username: MatForJordi 
+
+address: |
+    Escola Politècnica Superior (Universitat de Lleida)
+    Campus Universitari Igualada-UdL / Pla de la Massa
+    Av. Pla de la Massa, 8 - Igualada
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+
+collections:
+    offerings:
+        output: true

@@ -1,0 +1,8 @@
+items:
+- url: /
+  name: Home
+  icon_class: fa fa-home fa-lg
+- url: /offerings/
+  name: Offerings
+  icon_class: fa fa-book fa-lg
+
