@@ -1,6 +1,6 @@
 ---
 title: "Spring 2025"
-url: "/spring25"
+url: "HPDC-UDL.github.io/sp2025"
 instructor: "Ferran Aran Domingo"
 language: "English"
 ---
