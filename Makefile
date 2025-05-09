@@ -6,3 +6,6 @@ run:
 stop:
 	docker stop $(docker ps -q --filter ancestor=course-website)
 
+clean:
+	docker rmi course-website
+
